@@ -6,7 +6,7 @@ from os import getenv, environ
 HOST, PORT = '', int(getenv('PORT', 5000))
 LOGIN_URL = environ['FORCE_COM_PROTOTYPE_WEB_LOGIN_URL']
 USERNAME = environ['FORCE_COM_PROTOTYPE_USERNAME']
-PASSWORD = environ['FORCE_COM_PROTOTYPE_WEB_LOGIN_PASSWORD']
+PASSWORD = environ['FORCE_COM_PROTOTYPE_PASSWORD']
 
 class myHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
    def do_GET(self):
