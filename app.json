@@ -5,7 +5,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/forcedotcom/force-com-buildpack#1.0.0-DEMO-1"
+      "url": "https://github.com/forcedotcom/force-com-buildpack#githubintegration"
     }
   ]
 }
