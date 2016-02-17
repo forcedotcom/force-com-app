@@ -5,7 +5,17 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/forcedotcom/force-com-buildpack#1.0.0-DEMO-1"
+      "url": "https://github.com/forcedotcom/force-com-buildpack#1.0.0-DEMO-2"
     }
-  ]
+  ],
+  "env": {
+    "GITHUB_API_TOKEN": {
+      "description": "github api token with repo status write ability",
+      "required": true
+    },
+    "GITHUB_REPO": {
+      "description": "github repo including user or organization, e.g. user/repo",
+      "required": true
+    }
+  }
 }
