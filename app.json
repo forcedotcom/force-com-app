@@ -7,5 +7,10 @@
     {
       "url": "https://github.com/forcedotcom/force-com-buildpack#githubintegration"
     }
-  ]
+  ],
+  "env": {
+    "GITHUB_API_TOKEN":{},
+    "GITHUB_REPO":{},
+    "SOURCE_VERSION":{}
+  }
 }
