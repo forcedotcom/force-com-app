@@ -10,7 +10,6 @@
   ],
   "env": {
     "GITHUB_API_TOKEN":{},
-    "GITHUB_REPO":{},
-    "SOURCE_VERSION":{}
+    "GITHUB_REPO":{}
   }
 }
