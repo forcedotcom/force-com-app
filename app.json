@@ -9,7 +9,11 @@
     }
   ],
   "env": {
-    "GITHUB_API_TOKEN":{},
-    "GITHUB_REPO":{}
+    "GITHUB_API_TOKEN": {
+      "description": "github api token with repo status write ability"
+    },
+    "GITHUB_REPO": {
+      "description": "github repo including user or organization, e.g. user/repo"
+    }
   }
 }
