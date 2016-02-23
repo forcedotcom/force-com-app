@@ -1,7 +1,6 @@
 {
   "name": "Force.com Application",
   "addons": [
-    "force-com-prototype"
   ],
   "buildpacks": [
     {
