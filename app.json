@@ -1,7 +1,5 @@
 {
   "name": "Force.com Application",
-  "addons": [
-  ],
   "buildpacks": [
     {
       "url": "https://github.com/forcedotcom/force-com-buildpack#demo-4"
