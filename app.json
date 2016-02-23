@@ -6,6 +6,9 @@
     }
   ],
   "env": {
+    "FORCE_COM_ALM_URL": {
+      "required": true
+    },
     "GITHUB_API_TOKEN": {
       "description": "github api token with repo status write ability",
       "required": true
