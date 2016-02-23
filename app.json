@@ -1,11 +1,11 @@
 {
   "name": "Force.com Application",
   "addons": [
-    "force-com-prototype"
+    "force-com-alm"
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/forcedotcom/force-com-buildpack#demo-3"
+      "url": "https://github.com/forcedotcom/force-com-buildpack#demo-4"
     }
   ],
   "env": {
@@ -16,6 +16,10 @@
     "GITHUB_REPO": {
       "description": "github repo including user or organization, e.g. user/repo",
       "required": true
+    },
+    "HEROKU_LOGIN": {
+    },
+    "HEROKU_PASSWORD": {
     }
   }
 }
