@@ -16,6 +16,10 @@
     "GITHUB_REPO": {
       "description": "github repo including user or organization, e.g. user/repo",
       "required": true
+    },
+    "HEROKU_LOGIN": {
+    },
+    "HEROKU_PASSWORD": {
     }
   }
 }
