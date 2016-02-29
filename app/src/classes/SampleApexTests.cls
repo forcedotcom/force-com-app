@@ -10,6 +10,6 @@ public class SampleApexTests {
     }
 
     public static testMethod void myTest3() {
-        System.assertEquals(2 + 2, 5);
+        System.assertEquals(2 + 2, 4);
     }
 }
