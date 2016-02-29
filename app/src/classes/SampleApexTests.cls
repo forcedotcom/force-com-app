@@ -1,19 +1,15 @@
 @isTest
-public class SampleApexTests {
+private class SampleApexTests {
 
-    public static testMethod void myTest() {
+    @isTest private static void myTest() {
         System.assertEquals(1, 1);
     }
 
-    public static testMethod void myTest2() {
+    @isTest private static void myTest2() {
         System.assertEquals(1 + 1, 2);
     }
 
-    public static testMethod void myTest3() {
+    @isTest private static void myTest3() {
         System.assertEquals(2 + 2, 4);
-    }
-    
-    public static testMethod void myTest4() {
-        System.assertEquals(6 * 7, 42);
     }
 }
