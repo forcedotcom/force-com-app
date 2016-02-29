@@ -14,6 +14,6 @@ public class SampleApexTests {
     }
     
     public static testMethod void myTest4() {
-        System.assertEquals(6 * 7, 41);
+        System.assertEquals(6 * 7, 42);
     }
 }
