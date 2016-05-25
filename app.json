@@ -5,7 +5,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/forcedotcom/force-com-buildpack#salesforce"
+      "url": "https://github.com/forcedotcom/force-com-buildpack.git#salesforce"
     }
   ],
   "env": {
