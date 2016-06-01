@@ -1,1 +1,1 @@
-release: .salesforce/deploy
+release: .salesforce/release
