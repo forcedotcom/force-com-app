@@ -7,11 +7,11 @@ import urllib2
 import json
 
 HOST, PORT = '', int(getenv('PORT', 5000))
-FORCE_COM_ALM_URL = environ['FORCE_COM_ALM_URL']
+SALESFORCE_URL = environ['SALESFORCE_URL']
 
 pattern = "force://(.*):(.*):(.*)@(.*)"
 
-m = re.search(pattern, FORCE_COM_ALM_URL)
+m = re.search(pattern, SALESFORCE_URL)
 
 client_id=m.group(1)
 client_secret=m.group(2)
