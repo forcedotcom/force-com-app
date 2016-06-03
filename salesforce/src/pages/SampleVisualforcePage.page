@@ -1,5 +1,5 @@
 <apex:page controller="SampleController">
-    <apex:pageBlock title="Hello {!$User.FirstName}, welcome to app version {!appVersion}!">
-        This is your new page. More sample content here. Even more content.
+    <apex:pageBlock title="Hello {!$User.FirstName} {!$User.LastName}, welcome to app version {!appVersion}!">
+        This is your {!$User.CompanyName} Salesforce environment.
     </apex:pageBlock>
 </apex:page>
