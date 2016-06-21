@@ -1,5 +1,5 @@
 <apex:page controller="SampleController">
-    <apex:pageBlock title="Hello there {!$User.FirstName} {!$User.LastName}, welcome to app version {!appVersion}!">
+    <apex:pageBlock title="Greetings and salutations, {!$User.FirstName} {!$User.LastName}, welcome to app version {!appVersion}!">
         This is your {!$User.CompanyName} Salesforce environment.
     </apex:pageBlock>
 </apex:page>
