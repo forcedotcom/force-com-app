@@ -1,25 +1,16 @@
 {
   "name": "Force.com Application",
   "addons": [
-    "force-com-alm"
+    "salesforce"
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/forcedotcom/force-com-buildpack#demo-4"
+      "url":"https://github.com/heroku/heroku-buildpack-jvm-common.git"
+    },
+    { 
+      "url": "https://github.com/forcedotcom/force-com-buildpack.git"
     }
   ],
   "env": {
-    "GITHUB_API_TOKEN": {
-      "description": "github api token with repo status write ability",
-      "required": true
-    },
-    "GITHUB_REPO": {
-      "description": "github repo including user or organization, e.g. user/repo",
-      "required": true
-    },
-    "HEROKU_LOGIN": {
-    },
-    "HEROKU_PASSWORD": {
-    }
   }
 }
