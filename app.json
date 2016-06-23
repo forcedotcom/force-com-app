@@ -1,7 +1,7 @@
 {
   "name": "Force.com Application",
   "addons": [
-    "salesforce"
+    "force-com-prototype"
   ],
   "buildpacks": [
     {
